@@ -1,21 +1,40 @@
 import React from 'react'
-import { Router, Link } from 'react-static'
-//
-import Routes from 'react-static-routes'
-
+import { Root, Routes } from 'react-static'
+import { Link, Router } from 'components/Router'
 import './app.css'
 
-export default () => (
-  <Router>
-    <div>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
+function App() {
+  return (
+    <Root>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Link className="navbar-brand" to="/">My Site</Link>
+        <div className="collapse navbar-collapse">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item">
+              <Link className="nav-link" to="/">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">About</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/services">Services</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">Contact</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/blog">Blog</Link>
+            </li>
+          </ul>
+        </div>
       </nav>
       <div className="content">
-        <Routes />
+        <Router>
+          <Routes path="*" />
+        </Router>
       </div>
-    </div>
-  </Router>
-)
+    </Root>
+  )
+}
+
+export default App
