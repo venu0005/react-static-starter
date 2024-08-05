@@ -1,6 +1,5 @@
 import React from 'react';
-import logoImg from '../logo.png'; // Import your logo image
-import '../styles/Home.css'; // Import specific styles for the Home page
+ // Import specific styles for the Home page
 
 const Home = () => (
   <div className="home-container">
