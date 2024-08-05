@@ -1,5 +1,4 @@
 import axios from "axios";
-import Template from '/src/templates/Template.js';
 
 export default {
   getRoutes: async () => {
