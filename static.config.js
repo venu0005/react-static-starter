@@ -9,27 +9,22 @@ export default {
       {
         path: '/',
         component: 'src/containers/Home',
-        template: Template
       },
       {
         path: '/about',
         component: 'src/containers/About',
-        template: Template
       },
       {
         path: '/photography',
         component: 'src/containers/Hobby1',
-        template: Template
       },
       {
         path: '/gaming',
         component: 'src/containers/Hobby2',
-        template: Template
       },
       {
         path: '/football',
         component: 'src/containers/Hobby3',
-        template: Template
       },
       
       {
