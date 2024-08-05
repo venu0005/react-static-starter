@@ -1,6 +1,6 @@
 import React from 'react';
 import HobbyTemplate from '../templates/HobbyTemplate'; // Import the HobbyTemplate
-//import '../styles/Hobby1.css'; // Import specific styles for the Hobby1 page
+
 
 const Hobby1 = () => (
   <HobbyTemplate>

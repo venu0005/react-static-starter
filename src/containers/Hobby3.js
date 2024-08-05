@@ -1,14 +1,17 @@
-import React from 'react'
-//
-import logoImg from '../'
+import React from 'react';
+import HobbyTemplate from '../templates/HobbyTemplate'; // Import the HobbyTemplate
 
-export default () => (
-  <div> 
-    <h1>Football</h1>
-    <p>Football is not just a sport for me, but a passion. I love playing and watching football, and it keeps me fit and active.</p>
 
+const Football = () => (
+  <HobbyTemplate>
     <div>
-      <img src="/images/Football.jpg" alt="Photo 1"  /> 
+      <h1>Football</h1>
+      <p>Football is not just a sport for me, but a passion. I love playing and watching football, and it keeps me fit and active.</p>
+      <div>
+        <img src="/images/Football.jpg" alt="Football" className="center" /> 
+      </div>
     </div>
-  </div>
-)
+  </HobbyTemplate>
+);
+
+export default Football;
