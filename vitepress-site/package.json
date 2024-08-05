@@ -1,0 +1,14 @@
+{
+  "name": "vitepress-site",
+  "version": "1.0.0",
+  "description": "used for templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^1.3.2"
+  }
+}
