@@ -20,11 +20,11 @@ export default {
       },
       {
         path: '/gaming',
-        component: 'src/containers/Gaming',
+        component: 'src/containers/Hobby2',
       },
       {
         path: '/football',
-        component: 'src/containers/Football',
+        component: 'src/containers/Hobby3',
       },
       
       {
