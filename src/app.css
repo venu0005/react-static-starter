@@ -31,3 +31,14 @@ nav a {
 .content {
   padding: 1rem;
 }
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+}

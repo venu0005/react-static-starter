@@ -7,12 +7,24 @@ export default {
     );
     return [
       {
-        path: "/",
-        component: "src/containers/Home"
+        path: '/',
+        component: 'src/containers/Home',
       },
       {
-        path: "/about",
-        component: "src/containers/About"
+        path: '/about',
+        component: 'src/containers/About',
+      },
+      {
+        path: '/photography',
+        component: 'src/containers/Photography',
+      },
+      {
+        path: '/gaming',
+        component: 'src/containers/Gaming',
+      },
+      {
+        path: '/football',
+        component: 'src/containers/Football',
       },
       {
         path: "/blog",
