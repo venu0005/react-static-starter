@@ -16,7 +16,7 @@ export default {
       },
       {
         path: '/photography',
-        component: 'src/containers/Photography',
+        component: 'src/containers/Hobby1',
       },
       {
         path: '/gaming',
