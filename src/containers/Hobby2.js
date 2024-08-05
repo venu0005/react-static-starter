@@ -8,7 +8,7 @@ export default () => (
     <p>Gaming is one of my favorite pastimes. It helps me unwind and I enjoy playing a variety of games across different genres.</p>
 
     <div>
-      <img src="../Games" alt="Photo 1" className="center" /> 
+      <img src="/images/Gmaes.jpg" alt="Photo 1" className="center" /> 
     </div>
   </div>
 )
