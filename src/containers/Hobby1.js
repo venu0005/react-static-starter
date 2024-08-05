@@ -8,7 +8,7 @@ export default () => (
     <p>I love capturing moments through my camera lens. Photography allows me to express my creativity and see the world from different perspectives.</p>
 
     <div>
-      <img src='./images/Photography.JPG' alt="Photo" className="center" /> 
+      <img src='/Photography.JPG' alt="Photo" className="center" /> 
     </div>
   </div>
 )
