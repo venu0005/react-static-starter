@@ -1,0 +1,27 @@
+/* src/templates/Template.css */
+.template-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .template-header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+  
+  .template-header nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .template-content {
+    padding: 2rem;
+  }
+  
+  .template-footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    text-align: center;
+  }
+  
