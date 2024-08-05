@@ -1,8 +1,10 @@
 import React from 'react'
+//
+import logoImg from '../logo.png'
 
 export default () => (
   <div>
-    <h1>Welcome to My Static Site</h1>
-    <p>This is the home page with some real content.</p>
+    <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
+    <img src={logoImg} alt="" />
   </div>
 )
