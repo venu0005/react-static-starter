@@ -10,6 +10,5 @@ export default () => (
     <div>
       <img src="../Football" alt="Photo 1" className="center" /> 
     </div>
-    
   </div>
 )

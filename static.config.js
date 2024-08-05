@@ -26,6 +26,7 @@ export default {
         path: '/football',
         component: 'src/containers/Football',
       },
+      
       {
         path: "/blog",
         component: "src/containers/Blog",
