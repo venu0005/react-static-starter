@@ -1,5 +1,5 @@
 import axios from "axios";
-import Template from '/src/templates/Template.js';
+import Template from '../src/templates/Template';
 
 export default {
   getRoutes: async () => {
@@ -15,7 +15,7 @@ export default {
       {
         path: '/about',
         component: 'src/containers/About',
-        t
+        
       },
       {
         path: '/photography',
