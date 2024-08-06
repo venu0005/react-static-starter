@@ -1,7 +1,7 @@
-import React from 'react';
-import 'src\containers\styles\home.css'; // Import your CSS file
+import React from 'react'
 
-const Home = () => (
+
+export default () => (
   <div className="home-container">
     <header className="home-header">
       <h1>Welcome to My Hobbies Website</h1>
@@ -9,10 +9,10 @@ const Home = () => (
     </header>
     <section className="home-intro">
       <p>
-        Hello and welcome! Im delighted to share with you the things I love the most. This website is dedicated to three of my greatest passions: Photography, Gaming, and Football. Each of these hobbies brings me joy and helps me express myself in unique ways.
+        Hello and welcome! I’m delighted to share with you the things I love the most. This website is dedicated to three of my greatest passions: Photography, Gaming, and Football. Each of these hobbies brings me joy and helps me express myself in unique ways.
       </p>
       <p>
-        Whether youre here to admire my photography, learn about my gaming adventures, or understand my enthusiasm for football, youre in the right place. Dive into each section to explore more about what makes these hobbies so special to me.
+        Whether you’re here to admire my photography, learn about my gaming adventures, or understand my enthusiasm for football, you’re in the right place. Dive into each section to explore more about what makes these hobbies so special to me.
       </p>
     </section>
     <section className="home-hobbies">
@@ -54,4 +54,5 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+
+
