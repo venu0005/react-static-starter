@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css'; // Import your CSS file
+import 'src\containers\styles\home.css'; // Import your CSS file
 
 const Home = () => (
   <div className="home-container">
