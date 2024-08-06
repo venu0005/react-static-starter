@@ -1,0 +1,44 @@
+.home-container {
+    padding: 0 2rem;
+  }
+  
+  .home-header {
+    background: #f8f9fa;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+  }
+  
+  .home-intro {
+    background: #ffffff;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .home-hobbies {
+    background: #f9f9f9;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+  }
+  
+  .hobby-item img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .home-footer {
+    background: #343a40;
+    color: #ffffff;
+    border-top: 1px solid #6c757d;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  

@@ -3,6 +3,7 @@ import { Router, Link } from 'react-static'
 import Routes from 'react-static-routes'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css'
 
 export default () => (
